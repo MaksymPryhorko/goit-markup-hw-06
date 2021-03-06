@@ -814,16 +814,15 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: var(--white-text100);
-  color: var(--white-text100);
+  color: var(--blue-text);
   outline: none;
 
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop .close:hover,
 .backdrop .close:focus {
-  background-color: var(--blue-text);
+  fill: currentColor;
 }
 
 .form-field label {
@@ -976,7 +975,7 @@ footer {
 }
 
 .footer-form {
-  margin-left: 94px;
+  margin-left: auto;
 }
 
 .footer-subscribe input {
